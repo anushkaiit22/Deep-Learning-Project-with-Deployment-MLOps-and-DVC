@@ -1,7 +1,7 @@
 from Disease_Classifier.constants import *
 import os
-from Disease_Classifier.utils.global_fun import read_yaml, create_directories
-from Disease_Classifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig,TrainingConfig)
+from Disease_Classifier.utils.global_fun import read_yaml, create_directories, save_json
+from Disease_Classifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig,TrainingConfig,EvaluationConfig)
 
 
 class ConfigurationManager:
@@ -73,3 +73,16 @@ class ConfigurationManager:
         )
 
         return training_config
+
+
+
+    def get_evaluation_config(self) -> EvaluationConfig:
+        eval_config = EvaluationConfig(
+            path_of_model="storage/training/model.h5",
+            training_data="storage/data_ingestion/kidney-ct-scan-image",
+            mlflow_uri="https://dagshub.com/anushkaiit22/Deep-Learning-Project-with-Deployment-MLOps-and-DVC.mlflow",
+            all_params=self.params,
+            params_image_size=self.params.IMAGE_SIZE,
+            params_batch_size=self.params.BATCH_SIZE
+        )
+        return eval_config       

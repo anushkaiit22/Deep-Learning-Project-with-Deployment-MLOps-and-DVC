@@ -75,3 +75,241 @@ x==========x]
 [2024-10-15 01:26:45,956: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2024-10-15 02:14:25,508: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-15 02:14:25,512: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:14:25,515: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:14:25,517: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:14:25,517: INFO: global_fun: created directory at: storage/data_ingestion]
+[2024-10-15 02:14:25,518: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 02:14:35,993: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 02:14:37,609: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-15 02:14:37,611: INFO: main: *******************]
+[2024-10-15 02:14:37,611: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-15 02:14:37,616: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:14:37,621: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:14:37,622: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:14:37,623: INFO: global_fun: created directory at: storage/prepare_base_model]
+[2024-10-15 02:14:38,708: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-15 02:14:39,570: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-15 02:14:39,571: INFO: main: *******************]
+[2024-10-15 02:14:39,571: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-10-15 02:14:39,575: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:14:39,579: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:14:39,581: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:14:39,583: INFO: global_fun: created directory at: storage\training]
+[2024-10-15 02:16:44,541: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-15 02:20:57,887: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:20:57,897: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:22:50,433: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:22:50,443: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:22:50,446: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:24:28,536: INFO: global_fun: json file saved at: scores.json]
+[2024-10-15 02:24:49,501: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-10-15 02:24:55,735: INFO: builder_impl: Assets written to: C:\Users\Dell\AppData\Local\Temp\tmp1ap63_zn\model\data\model\assets]
+[2024-10-15 02:47:24,212: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-15 02:47:24,228: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:47:24,243: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:47:24,250: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:47:24,254: INFO: global_fun: created directory at: storage/data_ingestion]
+[2024-10-15 02:47:24,257: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 02:47:35,456: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 02:47:39,350: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-15 02:47:39,352: INFO: main: *******************]
+[2024-10-15 02:47:39,354: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-15 02:47:39,373: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:47:39,383: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:47:39,385: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:47:39,388: INFO: global_fun: created directory at: storage/prepare_base_model]
+[2024-10-15 02:47:41,240: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-15 02:47:42,064: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-15 02:47:42,066: INFO: main: *******************]
+[2024-10-15 02:47:42,067: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-10-15 02:47:42,076: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:47:42,084: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:47:42,087: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:47:42,090: INFO: global_fun: created directory at: storage\training]
+[2024-10-15 02:50:16,546: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-15 02:50:16,552: INFO: main: *******************]
+[2024-10-15 02:50:16,553: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-15 02:50:16,554: ERROR: main: name 'EvaluationPipeline' is not defined]
+Traceback (most recent call last):
+  File "c:/Users/Dell/Deep-Learning-Project-with-Deployment-MLOps-and-DVC/main.py", line 46, in <module>
+    model_evalution = EvaluationPipeline()
+NameError: name 'EvaluationPipeline' is not defined
+[2024-10-15 02:54:55,431: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-15 02:54:55,436: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:54:55,443: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:54:55,445: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:54:55,446: INFO: global_fun: created directory at: storage/data_ingestion]
+[2024-10-15 02:54:55,448: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 02:55:09,640: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 02:55:13,603: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-15 02:55:13,606: INFO: main: *******************]
+[2024-10-15 02:55:13,607: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-15 02:55:13,615: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:55:13,621: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:55:13,624: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:55:13,632: INFO: global_fun: created directory at: storage/prepare_base_model]
+[2024-10-15 02:55:15,091: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-15 02:55:15,682: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-15 02:55:15,683: INFO: main: *******************]
+[2024-10-15 02:55:15,684: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-10-15 02:55:15,689: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 02:55:15,696: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 02:55:15,697: INFO: global_fun: created directory at: storage]
+[2024-10-15 02:55:15,700: INFO: global_fun: created directory at: storage\training]
+[2024-10-15 03:01:30,827: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-15 03:01:30,830: INFO: main: *******************]
+[2024-10-15 03:01:30,831: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-15 03:01:30,842: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 03:01:30,851: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 03:01:30,854: INFO: global_fun: created directory at: storage]
+[2024-10-15 03:02:04,056: INFO: global_fun: json file saved at: scores.json]
+[2024-10-15 03:02:04,059: INFO: global_fun: json file saved at: scores.json]
+[2024-10-15 03:02:07,874: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-10-15 03:02:08,839: INFO: builder_impl: Assets written to: C:\Users\Dell\AppData\Local\Temp\tmpzb956hdm\model\data\model\assets]
+[2024-10-15 03:02:26,277: ERROR: main: No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "c:/Users/Dell/Deep-Learning-Project-with-Deployment-MLOps-and-DVC/main.py", line 48, in <module>
+    model_evalution.main()
+  File "c:\users\dell\deep-learning-project-with-deployment-mlops-and-dvc\src\Disease_Classifier\pipeline\stage4_me.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\dell\deep-learning-project-with-deployment-mlops-and-dvc\src\Disease_Classifier\components\model_eval.py", line 74, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "E:\anaconda3\envs\kidney\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "E:\anaconda3\envs\kidney\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-10-15 03:41:15,105: INFO: stage1_di: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-10-15 03:41:15,112: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 03:41:15,118: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 03:41:15,120: INFO: global_fun: created directory at: storage]
+[2024-10-15 03:41:15,121: INFO: global_fun: created directory at: storage/data_ingestion]
+[2024-10-15 03:41:15,122: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 03:41:27,574: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 03:41:28,748: INFO: stage1_di: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-10-15 03:41:50,088: INFO: stage2_pb: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-15 03:41:50,091: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 03:41:50,093: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 03:41:50,095: INFO: global_fun: created directory at: storage]
+[2024-10-15 03:41:50,095: INFO: global_fun: created directory at: storage/prepare_base_model]
+[2024-10-15 03:41:50,813: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-15 03:41:51,249: INFO: stage2_pb: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-15 03:41:59,635: INFO: stage3_t: *******************]
+[2024-10-15 03:41:59,636: INFO: stage3_t: >>>>>> stage Training started <<<<<<]
+[2024-10-15 03:41:59,640: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 03:41:59,643: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 03:41:59,644: INFO: global_fun: created directory at: storage]
+[2024-10-15 03:41:59,645: INFO: global_fun: created directory at: storage\training]
+[2024-10-15 03:43:50,194: INFO: stage3_t: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-15 03:44:03,433: INFO: stage4_me: *******************]
+[2024-10-15 03:44:03,434: INFO: stage4_me: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-15 03:44:03,438: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 03:44:03,441: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 03:44:03,443: INFO: global_fun: created directory at: storage]
+[2024-10-15 03:44:36,319: INFO: global_fun: json file saved at: scores.json]
+[2024-10-15 03:44:36,322: INFO: global_fun: json file saved at: scores.json]
+[2024-10-15 03:44:39,136: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-10-15 03:44:40,022: INFO: builder_impl: Assets written to: C:\Users\Dell\AppData\Local\Temp\tmp0n0164r8\model\data\model\assets]
+[2024-10-15 03:44:52,234: ERROR: stage4_me: No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "src/Disease_Classifier/pipeline/stage4_me.py", line 30, in <module>
+    obj.main()
+  File "src/Disease_Classifier/pipeline/stage4_me.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\dell\deep-learning-project-with-deployment-mlops-and-dvc\src\Disease_Classifier\components\model_eval.py", line 74, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "E:\anaconda3\envs\kidney\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "E:\anaconda3\envs\kidney\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-10-15 03:47:38,468: INFO: stage4_me: *******************]
+[2024-10-15 03:47:38,469: INFO: stage4_me: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-15 03:47:38,472: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 03:47:38,475: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 03:47:38,476: INFO: global_fun: created directory at: storage]
+[2024-10-15 03:48:12,322: INFO: global_fun: json file saved at: scores.json]
+[2024-10-15 03:48:12,324: INFO: global_fun: json file saved at: scores.json]
+[2024-10-15 03:48:15,228: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-10-15 03:48:16,068: INFO: builder_impl: Assets written to: C:\Users\Dell\AppData\Local\Temp\tmp9ey8v1cl\model\data\model\assets]
+[2024-10-15 03:48:27,682: ERROR: stage4_me: No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "src/Disease_Classifier/pipeline/stage4_me.py", line 30, in <module>
+    obj.main()
+  File "src/Disease_Classifier/pipeline/stage4_me.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\dell\deep-learning-project-with-deployment-mlops-and-dvc\src\Disease_Classifier\components\model_eval.py", line 74, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model")
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "E:\anaconda3\envs\kidney\lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+  File "E:\anaconda3\envs\kidney\lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "E:\anaconda3\envs\kidney\lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'

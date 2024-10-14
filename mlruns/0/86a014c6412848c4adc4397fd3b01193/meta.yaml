@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Dell/Deep-Learning-Project-with-Deployment-MLOps-and-DVC/mlruns/0/86a014c6412848c4adc4397fd3b01193/artifacts
+end_time: 1728944092230
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86a014c6412848c4adc4397fd3b01193
+run_name: abundant-hare-153
+run_uuid: 86a014c6412848c4adc4397fd3b01193
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728944077087
+status: 4
+tags: []
+user_id: Dell

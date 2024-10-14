@@ -1,0 +1,54 @@
+stages:
+  data_ingestion:
+    cmd: python src/Disease_Classifier/pipeline/stage1_di.py
+    deps:
+      - src/Disease_Classifier/pipeline/stage1_di.py
+      - config/config.yaml
+    outs:
+      - storage/data_ingestion/kidney-ct-scan-image
+
+
+  prepare_base_model:
+    cmd: python src/Disease_Classifier/pipeline/stage2_pb.py
+    deps:
+      - src/Disease_Classifier/pipeline/stage2_pb.py
+      - config/config.yaml
+    params:
+      - IMAGE_SIZE
+      - INCLUDE_TOP
+      - CLASSES
+      - WEIGHTS
+      - LEARNING_RATE
+    outs:
+      - storage/prepare_base_model
+
+
+  training:
+    cmd: python src/Disease_Classifier/pipeline/stage3_t.py
+    deps:
+      - src/Disease_Classifier/pipeline/stage3_t.py
+      - config/config.yaml
+      - storage/data_ingestion/kidney-ct-scan-image
+      - storage/prepare_base_model
+    params:
+      - IMAGE_SIZE
+      - EPOCHS
+      - BATCH_SIZE
+      - AUGMENTATION
+    outs:
+      - storage/training/model.h5
+
+
+  evaluation:
+    cmd: python src/Disease_Classifier/pipeline/stage4_me.py
+    deps:
+      - src/Disease_Classifier/pipeline/stage4_me.py
+      - config/config.yaml
+      - storage/data_ingestion/kidney-ct-scan-image
+      - storage/training/model.h5
+    params:
+      - IMAGE_SIZE
+      - BATCH_SIZE
+    metrics:
+    - scores.json:
+        cache: false
