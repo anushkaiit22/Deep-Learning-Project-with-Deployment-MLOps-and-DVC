@@ -42,3 +42,36 @@ x==========x]
 [2024-10-15 00:58:10,622: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2024-10-15 01:10:27,540: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 01:10:27,547: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 01:10:27,552: INFO: global_fun: created directory at: storage]
+[2024-10-15 01:10:27,554: INFO: global_fun: created directory at: storage\training]
+[2024-10-15 01:23:54,468: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-15 01:23:54,475: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 01:23:54,481: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 01:23:54,482: INFO: global_fun: created directory at: storage]
+[2024-10-15 01:23:54,484: INFO: global_fun: created directory at: storage/data_ingestion]
+[2024-10-15 01:23:54,485: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 01:24:05,980: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file storage/data_ingestion/data.zip]
+[2024-10-15 01:24:08,654: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-15 01:24:08,656: INFO: main: *******************]
+[2024-10-15 01:24:08,658: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-15 01:24:08,684: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 01:24:08,711: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 01:24:08,776: INFO: global_fun: created directory at: storage]
+[2024-10-15 01:24:08,786: INFO: global_fun: created directory at: storage/prepare_base_model]
+[2024-10-15 01:24:10,354: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-15 01:24:10,996: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-15 01:24:10,997: INFO: main: *******************]
+[2024-10-15 01:24:10,998: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-10-15 01:24:11,005: INFO: global_fun: yaml file: config\config.yaml loaded successfully]
+[2024-10-15 01:24:11,010: INFO: global_fun: yaml file: params.yaml loaded successfully]
+[2024-10-15 01:24:11,012: INFO: global_fun: created directory at: storage]
+[2024-10-15 01:24:11,013: INFO: global_fun: created directory at: storage\training]
+[2024-10-15 01:26:45,956: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
