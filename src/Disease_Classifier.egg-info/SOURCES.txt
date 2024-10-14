@@ -12,3 +12,4 @@ src/Disease_Classifier/constants/__init__.py
 src/Disease_Classifier/entity/__init__.py
 src/Disease_Classifier/pipeline/__init__.py
 src/Disease_Classifier/utils/__init__.py
+src/Disease_Classifier/utils/global_fun.py
